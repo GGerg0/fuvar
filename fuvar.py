@@ -15,6 +15,9 @@ adatok = []
 
 for sor in f:
     sor = sor.strip().split(";")
-    adatok.append(Fuvar(sor[0],sor[1],sor[2],sor[3],sor[4],sor[5],sor[6],))
+    adatok.append(Fuvar(sor[0],sor[1],sor[2],sor[3],(sor[4]),float(sor[5]),sor[6],))
 
-    
+print(f"3. feladat: {len(adatok)-1} fuvar")
+
+
+        
